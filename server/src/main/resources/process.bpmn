@@ -9,9 +9,6 @@
     <bpmn:serviceTask id="ExampleExternalTask" name="Example External Task" camunda:type="external" camunda:topic="ExampleExternalTask">
       <bpmn:incoming>SequenceFlow1</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_18o7zqy</bpmn:outgoing>
-      <bpmn:multiInstanceLoopCharacteristics>
-        <bpmn:loopCardinality xsi:type="bpmn:tFormalExpression">20</bpmn:loopCardinality>
-      </bpmn:multiInstanceLoopCharacteristics>
     </bpmn:serviceTask>
     <bpmn:startEvent id="ExampleMessageEvent" name="Example Message Event">
       <bpmn:outgoing>SequenceFlow1</bpmn:outgoing>
