@@ -12,7 +12,7 @@ sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
 ext {
-    grpcClientVersion = "1.0.0"
+    grpcClientVersion = "1.0.2"
 }
 
 configurations {

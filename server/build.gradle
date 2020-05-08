@@ -11,7 +11,7 @@ sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
 ext {
-    grpcServerVersion = "1.0.0"
+    grpcServerVersion = "1.0.2"
     camundaVersion = "7.12.0"
     camundaSpringBootVersion = "3.4.0"
     camundaLoggingVersion = "1.9.0"
